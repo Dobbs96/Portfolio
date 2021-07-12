@@ -6,9 +6,9 @@
 
 ## Description
 
-    This project will show my skills that I have learned. This is just a steppingstone for me to become Employer-Ready and Employer-Competitive. I want a portfolio I can be proud of and make people go WOW!
+This project will show my skills that I have learned. This is just a steppingstone for me to become Employer-Ready and Employer-Competitive. I want a portfolio I can be proud of and make people go WOW!
 
-    **MY FUTURE STARTS HERE**
+**MY FUTURE STARTS HERE**
 
 ---
 
