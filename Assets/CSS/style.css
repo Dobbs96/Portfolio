@@ -1,5 +1,14 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: #e2fff6;
+}
+
+body {
+  background-image: url(../Images/main-background.jpg);
+}
+
+img {
+  width: 33%;
 }
 
 header h1 {

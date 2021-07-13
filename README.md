@@ -18,14 +18,14 @@ This project will show my skills that I have learned. This is just a steppingsto
 2. [] Use place holders
 3. [] Make sure it works
    1. [] When the screen shrinks it should look good.
-4. [] Needed information
-   1. [] Name
-   2. [] Photo
-   3. [] Link to sections
-   4. [] Work
-   5. [] Contact
-5. [] Become Live
-6. [] Work submitted
-   1. [] URL of deployed application
-   2. [] URL of Github with codes
+4. [x] Needed information
+   1. [x] Name
+   2. [x] Photo
+   3. [x] Link to sections
+   4. x] Work
+   5. [x] Contact
+5. [x] Become Live
+6. [x] Work submitted
+   1. [x] URL of deployed application
+   2. [x] URL of Github with codes
 7. [] Be proud of your work
