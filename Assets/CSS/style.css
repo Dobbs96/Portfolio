@@ -1,16 +1,95 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #e2fff6;
+  color: #d2fff1;
 }
 
 body {
-  background-image: url(../Images/main-background.jpg);
+  background-image: url(../Images/newyork.jpg);
+  background-size: contain;
+  margin: 6px;
+}
+
+.header-pic {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-image: url(../Images/header.profile.JPG);
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 7px;
 }
 
 img {
-  width: 33%;
+  width: 100%;
 }
 
-header h1 {
-  font-size: 2rem;
+.border {
+  width: 80%;
+  margin: 1.5rem auto 0;
+}
+
+.self {
+  display: inline-flex;
+  align-items: center;
+}
+
+.self h1 {
+  padding-left: 1rem;
+  font-size: 2.5rem;
+}
+
+#main-nav li {
+  display: inline-flex;
+  align-content: center;
+  justify-content: flex-end;
+  padding: 3px;
+  font-size: 1.5rem;
+}
+
+#about-me {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+#about-me p {
+  flex: 1;
+  margin: auto;
+  padding: 2px;
+  border: 2px dotted red;
+  margin-right: 1.5rem;
+  font-size: 1.3rem;
+}
+.sideprofile {
+  flex: 1;
+}
+
+.sideprofile h2 {
+  font-size: 4.7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sideprofile img {
+  border-radius: 145px;
+}
+
+@media screen and (max-width: 620px) {
+  #about-me {
+    display: flex;
+    flex-direction: column;
+  }
+  .sideprofile {
+    order: -1;
+  }
 }
