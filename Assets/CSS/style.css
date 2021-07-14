@@ -60,6 +60,8 @@ img {
   justify-content: center;
   align-content: center;
   margin: auto;
+  background: #00000075;
+  padding: 1rem;
 }
 
 #about-me p {
@@ -82,6 +84,54 @@ img {
 
 .sideprofile img {
   border-radius: 145px;
+}
+
+#work {
+  display: flex;
+  margin-top: 3.5rem;
+  padding: 1rem;
+  background: #00000075;
+}
+
+#work h2 {
+  font-size: 2.1rem;
+  border-right: 4px dashed red;
+}
+
+.mywork {
+  text-align: center;
+}
+
+.mywork img {
+  margin: 1rem 0;
+  width: 90%;
+}
+
+#main-footer {
+  background: #000000d4;
+  margin-top: 2.5rem;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-top h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  padding-bottom: 0.5rem;
+}
+
+.item-spacing li,
+.item-spacing p {
+  padding: 0.3rem;
+}
+
+.footer-bot {
+  text-align: center;
+  padding-top: 0.5rem;
 }
 
 @media screen and (max-width: 620px) {
