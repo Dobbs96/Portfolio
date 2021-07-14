@@ -109,9 +109,22 @@ a:hover {
   text-align: center;
 }
 
+div #main-work img {
+  width: 100%;
+  margin-left: 10px;
+}
+
 .mywork img {
   margin: 1rem 0;
+  width: 85%;
+}
+
+.mywork img:hover,
+.mywork #main-work img:hover {
   width: 90%;
+  box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
+  -webkit-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
 }
 
 #main-footer {
