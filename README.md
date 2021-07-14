@@ -12,20 +12,27 @@ This project will show my skills that I have learned. This is just a steppingsto
 
 ---
 
-## Task
+## Main Task
 
-1. [] Show Skills
-2. [] Use place holders
-3. [] Make sure it works
-   1. [] When the screen shrinks it should look good.
+1. [x] Show Skills
+2. [x] Use place holders
+3. [x] Make sure it works
+   1. [x] When the screen shrinks it should look good.
 4. [x] Needed information
    1. [x] Name
    2. [x] Photo
    3. [x] Link to sections
-   4. x] Work
+   4. [x] Work
    5. [x] Contact
 5. [x] Become Live
 6. [x] Work submitted
    1. [x] URL of deployed application
    2. [x] URL of Github with codes
-7. [] Be proud of your work
+7. [x] Be proud of your work
+
+
+## Task for future
+
+- More Skill will be added everytime I learn.
+- Add more Work Projects.
+- **THINK** There is always a way to improve.
