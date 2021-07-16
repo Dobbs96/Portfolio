@@ -72,9 +72,8 @@ a:hover {
 #about-me p {
   flex: 1;
   margin: auto;
-  padding: 2px;
+  padding: 0.4rem;
   border: 2px dashed red;
-  margin-right: 1.5rem;
   font-size: 1.5rem;
 }
 
@@ -83,14 +82,15 @@ a:hover {
 }
 
 .sideprofile h2 {
-  font-size: 4.7rem;
+  font-size: 3.5rem;
   text-align: center;
   margin-bottom: 3rem;
 }
 
 .sideprofile img {
   border-radius: 145px;
-  margin: 1rem auto;
+  margin: auto;
+  padding: 0 1rem;
 }
 
 #work {
@@ -103,6 +103,7 @@ a:hover {
 #work h2 {
   font-size: 2.1rem;
   border-right: 4px dashed red;
+  padding-right: 1rem;
 }
 
 .mywork {
@@ -110,18 +111,23 @@ a:hover {
 }
 
 div #main-work img {
-  width: 100%;
+  width: 75%;
   margin-left: 10px;
 }
 
 .mywork img {
   margin: 1rem 0;
-  width: 85%;
+  width: 70%;
 }
 
-.mywork img:hover,
+.mywork img:hover {
+  width: 80%;
+  box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
+  -webkit-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
+  -moz-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
+}
 .mywork #main-work img:hover {
-  width: 90%;
+  width: 85%;
   box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
   -webkit-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
   -moz-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
@@ -136,11 +142,12 @@ div #main-work img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-top: 1rem;
 }
 
 .footer-top h3 {
   font-size: 1.5rem;
-  text-decoration: underline;
+  text-decoration: underline red;
   padding-bottom: 0.5rem;
 }
 
@@ -154,12 +161,34 @@ div #main-work img {
   padding-top: 0.5rem;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
   #about-me {
     display: flex;
     flex-direction: column;
   }
+  #about-me p {
+    margin-top: 0.5rem;
+  }
   .sideprofile {
     order: -1;
+  }
+  .sideprofile h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  #work h2 {
+    font-size: 1.8rem;
+    border-right: 4px dashed red;
+  }
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .links {
+    padding-top: 1rem;
   }
 }
