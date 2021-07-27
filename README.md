@@ -1,6 +1,8 @@
 # Portfolio Project
 
-## **Update Everyday**
+## Live
+
+[Live](https://dobbs96.github.io/Portfolio/)
 
 ---
 
