@@ -1,12 +1,28 @@
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.dark * {
   color: #d2fff1;
 }
 
+.light * {
+  color: black;
+}
+
 body {
+  margin: 0;
+}
+
+body .dark {
   background-image: url(../Images/newyork.jpg);
   background-size: contain;
-  margin: 6px;
+}
+
+body .light {
+  background-image: url(../Images/oceanBeach.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-pic {
@@ -16,6 +32,7 @@ body {
   background-image: url(../Images/header.profile.JPG);
   background-size: cover;
 }
+
 a {
   text-decoration: none;
 }
@@ -25,7 +42,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 7px;
+  margin: 0;
 }
 
 img {
@@ -65,8 +82,21 @@ a:hover {
   justify-content: center;
   align-content: center;
   margin: auto;
-  background: #00000075;
   padding: 1rem;
+}
+
+#switch {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.dark #about-me {
+  background: #00000075;
+}
+
+.light #about-me {
+  background: #ffffff75;
 }
 
 #about-me p {
@@ -97,7 +127,14 @@ a:hover {
   display: flex;
   margin-top: 3.5rem;
   padding: 1rem;
+}
+
+.dark #work {
   background: #00000075;
+}
+
+.light #work {
+  background: #ffffff75;
 }
 
 #work h2 {
@@ -134,8 +171,15 @@ div #main-work img {
 }
 
 #main-footer {
-  background: #000000d4;
   margin-top: 2.5rem;
+}
+
+.dark #main-footer {
+  background: #000000d4;
+}
+
+.light #main-footer {
+  background: #ffffffd4;
 }
 
 .footer-top {
@@ -161,10 +205,16 @@ div #main-work img {
   padding-top: 0.5rem;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1200px) {
   #about-me {
     display: flex;
     flex-direction: column;
+  }
+  #switch {
+    order: -5;
+    position: relative;
+    top: 0;
+    margin: auto;
   }
   #about-me p {
     margin-top: 0.5rem;

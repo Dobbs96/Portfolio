@@ -6,130 +6,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Assets/CSS/reset.css" />
     <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+      integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I="
+      crossorigin="anonymous"
+    />
     <title>James Dobbs Portfolio</title>
   </head>
   <body>
-    <header id="main-header">
-      <div class="self">
-        <div class="header-pic"></div>
-        <h1><span onclick="playGame()">James Dobbs</span></h1>
-      </div>
-      <nav id="main-nav">
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#main-footer">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="border">
-      <section id="about-me">
-        <!-- Left side alone / mobile bottom-->
-        <p>
-          Welcome to my portfolio. I have always been interested in computers,
-          but I never knew where to start. But now I do, and this portfolio is
-          the start of my career. I first started working at the airport. I
-          worked with many different airlines, until my third year being there.
-          I became manger of an new airline. Once I stopped working at the
-          airport, that’s when I realized this is not what I want to do. I WANT
-          TO BE A WEB DEVELOPER. Now I have a passion in coding. Now I am
-          learning as much as I can to set my goal to me an amazing web
-          developer.
-        </p>
-        <div class="sideprofile">
-          <!-- Right side / mobile top -->
-          <h2>About Me</h2>
-          <img
-            src="./Assets/Images/Profile_Me.JPG"
-            alt="Main Portfolio Picture"
-          />
+    <div class="container dark">
+      <header id="main-header">
+        <div class="self">
+          <div class="header-pic"></div>
+          <h1><span onclick="playGame()">James Dobbs</span></h1>
         </div>
-      </section>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#main-footer">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="border">
+        <section id="about-me">
+          <!-- light dark -->
+          <div id="switch" class="switch">
+            <input
+              class="switch-input"
+              id="exampleSwitch"
+              type="checkbox"
+              name="exampleSwitch"
+            />
+            <label class="switch-paddle" for="exampleSwitch">
+              <span class="show-for-sr">Dark</span>
+            </label>
+          </div>
+          <!-- Left side alone / mobile bottom-->
 
-      <main id="work">
-        <h2>My Work</h2>
-        <div class="mywork">
-          <!-- Img 1 main -->
-          <a
-            href="https://dobbs96.github.io/HW-2-Password-Generator/"
-            target="_blank"
-          >
-            <div id="main-work">
+          <p>
+            Welcome to my portfolio. I have always been interested in computers,
+            but I never knew where to start. But now I do, and this portfolio is
+            the start of my career. I first started working at the airport. I
+            worked with many different airlines, until my third year being
+            there. I became a manger of a new airline. Once I stopped working at
+            the airport, that’s when I realized this is not what I want to do. I
+            WANT TO BE A WEB DEVELOPER. Now I have a passion in coding. Now I am
+            learning as much as I can to set my goal to be an amazing web
+            developer.
+          </p>
+          <div class="sideprofile">
+            <!-- Right side / mobile top -->
+            <h2>About Me</h2>
+            <img
+              src="./Assets/Images/Profile_Me.JPG"
+              alt="Main Portfolio Picture"
+            />
+          </div>
+        </section>
+
+        <main id="work">
+          <h2>My Work</h2>
+          <div class="mywork">
+            <!-- Img 1 main -->
+            <a
+              href="https://dobbs96.github.io/HW-2-Password-Generator/"
+              target="_blank"
+            >
+              <div id="main-work">
+                <img
+                  src="./Assets/Images/placeholder1.jpg"
+                  alt="Thinking Placeholder1"
+                />
+              </div>
+            </a>
+            <!-- Img 2 side-work -->
+            <a
+              href="https://dobbs96.github.io/HW-5-Weather_Dashboard/"
+              target="_blank"
+            >
               <img
-                src="./Assets/Images/placeholder1.jpg"
-                alt="Thinking Placeholder1"
-              />
-            </div>
-          </a>
-          <!-- Img 2 side-work -->
-          <a
-            href="https://dobbs96.github.io/HW-5-Weather_Dashboard/"
-            target="_blank"
-          >
-            <img
-              src="./Assets/Images/placeholder2.jpg"
-              alt="Design Placeholder2"
-              id="side-work"
-          /></a>
-          <!-- Img 3 side-work -->
-          <a
-            href="https://dobbs96.github.io/HW-4-Work-Day-Scheduler/"
-            target="_blank"
-          >
-            <img
-              src="./Assets/Images/placeholder3.jpg"
-              alt="Drawn Design Placeholder3"
-              id="side-work"
-          /></a>
-        </div>
-      </main>
+                src="./Assets/Images/placeholder2.jpg"
+                alt="Design Placeholder2"
+                id="side-work"
+            /></a>
+            <!-- Img 3 side-work -->
+            <a
+              href="https://dobbs96.github.io/HW-4-Work-Day-Scheduler/"
+              target="_blank"
+            >
+              <img
+                src="./Assets/Images/placeholder3.jpg"
+                alt="Drawn Design Placeholder3"
+                id="side-work"
+            /></a>
+          </div>
+        </main>
 
-      <footer id="main-footer">
-        <div class="footer-top">
-          <!-- Left Side / mobile top-->
-          <div class="contact.info">
-            <h3>Contact Info</h3>
-            <div class="item-spacing">
-              <p>Talk to you soon.</p>
-              <ul>
-                <li>Phone: 347.557.3898</li>
-                <li>
-                  Email:
-                  <a href="mailto:Dobbs282@gmail.com">Dobbs282@gmail.com</a>
-                </li>
-              </ul>
+        <footer id="main-footer">
+          <div class="footer-top">
+            <!-- Left Side / mobile top-->
+            <div class="contact.info">
+              <h3>Contact Info</h3>
+              <div class="item-spacing">
+                <p>Talk to you soon.</p>
+                <ul>
+                  <li>Phone: 347.557.3898</li>
+                  <li>
+                    Email:
+                    <a href="mailto:Dobbs282@gmail.com">Dobbs282@gmail.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Right Side, mobile bottom-->
+            <div class="links">
+              <h3>Links</h3>
+              <div class="item-spacing">
+                <ul>
+                  <li><a href="#main-header">Home</a></li>
+                  <li>
+                    <a href="https://github.com/Dobbs96" target="_blank"
+                      >GitHub</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/james-dobbs-63bb8016b/"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./Assets/Dobbs-Resume.pdf">Download Resume</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-
-          <!-- Right Side, mobile bottom-->
-          <div class="links">
-            <h3>Links</h3>
-            <div class="item-spacing">
-              <ul>
-                <li><a href="#main-header">Home</a></li>
-                <li>
-                  <a href="https://github.com/Dobbs96" target="_blank"
-                    >GitHub</a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/james-dobbs-63bb8016b/"
-                    target="_blank"
-                    >LinkedIn</a
-                  >
-                </li>
-                <li><a href="./Assets/Dobbs-Resume.pdf">Download Resume</a></li>
-              </ul>
-            </div>
+          <!-- Stays at bottom of page -->
+          <div class="footer-bot">
+            <p>&copy; 2021 James Dobbs</p>
           </div>
-        </div>
-        <!-- Stays at bottom of page -->
-        <div class="footer-bot">
-          <p>&copy; 2021 James Dobbs</p>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
-    <script src="./Assets/RPS.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+      integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Assets/script.js"></script>
   </body>
 </html>

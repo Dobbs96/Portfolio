@@ -1,3 +1,22 @@
+// Start Theme Switch ====================================================
+var themeSwitcher = document.querySelector("#exampleSwitch");
+var container = document.querySelector(".container");
+
+var mode = "dark";
+themeSwitcher.addEventListener("click", function () {
+  if (mode === "dark") {
+    mode = "light";
+    container.classList.add("light");
+    container.classList.remove("dark");
+  } else {
+    mode = "dark";
+    container.classList.add("dark");
+    container.classList.remove("light");
+  }
+});
+// End Theme Switch ====================================================
+
+// ====================Start THROW BACK R,P,S=====================================================
 // Variables
 var choices = "RPS".split("");
 var scoreBoard = {
@@ -91,3 +110,4 @@ function playGame() {
   score();
   return;
 }
+// ===================================End THROUGH BACK R,P,S=========================================
