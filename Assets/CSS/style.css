@@ -198,6 +198,7 @@ div #main-work img {
 .item-spacing li,
 .item-spacing p {
   padding: 0.3rem;
+  list-style: none;
 }
 
 .footer-bot {
