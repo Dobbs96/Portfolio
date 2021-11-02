@@ -49,6 +49,11 @@ img {
   width: 100%;
 }
 
+.image-box {
+  width: 75%;
+  margin: auto;
+}
+
 a:hover {
   color: red;
 }
@@ -147,28 +152,29 @@ a:hover {
   text-align: center;
 }
 
-div #main-work img {
+/* div #main-work img {
   width: 75%;
   margin-left: 10px;
-}
+} */
 
 .mywork img {
   margin: 1rem 0;
-  width: 70%;
+  width: 55%;
+  border-radius: 15px;
 }
 
 .mywork img:hover {
-  width: 80%;
+  /* width: 80%; */
   box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
   -webkit-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
   -moz-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
 }
-.mywork #main-work img:hover {
+/* .mywork #main-work img:hover {
   width: 85%;
   box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
   -webkit-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
   -moz-box-shadow: 1px 1px 44px 12px rgba(255, 0, 0, 1);
-}
+} */
 
 #main-footer {
   margin-top: 2.5rem;
