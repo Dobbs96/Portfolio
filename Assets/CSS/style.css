@@ -238,6 +238,10 @@ a:hover {
     font-size: 1.8rem;
     border-right: 4px dashed red;
   }
+  #side-work,
+  #main-work img {
+    width: 100%;
+  }
   .footer-top {
     display: flex;
     flex-direction: column;
